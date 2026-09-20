@@ -1,0 +1,30 @@
+2026-09-20 09:00:01 INFO auth-service User 1024 logged in successfully
+2026-09-20 09:00:12 INFO payment-service Payment request received for order 5001
+2026-09-20 09:00:13 INFO payment-service Payment completed for order 5001
+2026-09-20 09:01:03 WARN api-gateway Request latency exceeded 800ms
+2026-09-20 09:01:18 INFO inventory-service Inventory updated for product 221
+2026-09-20 09:02:02 ERROR payment-service Payment provider timeout for order 5002
+2026-09-20 09:02:14 INFO auth-service User 1042 logged in successfully
+2026-09-20 09:03:07 ERROR api-gateway Upstream service returned HTTP 500
+2026-09-20 09:03:15 WARN inventory-service Low inventory for product 221
+2026-09-20 09:04:21 INFO payment-service Payment request received for order 5003
+2026-09-20 09:04:25 ERROR payment-service Payment provider timeout for order 5003
+2026-09-20 09:05:03 ERROR payment-service Payment provider timeout for order 5004
+2026-09-20 09:05:07 ERROR payment-service Payment provider timeout for order 5005
+2026-09-20 09:05:10 WARN api-gateway Request latency exceeded 1200ms
+2026-09-20 09:05:22 INFO auth-service User 1060 logged in successfully
+2026-09-20 09:06:01 ERROR api-gateway Upstream service returned HTTP 503
+2026-09-20 09:06:09 ERROR api-gateway Upstream service returned HTTP 503
+2026-09-20 09:06:13 ERROR api-gateway Upstream service returned HTTP 503
+2026-09-20 09:07:02 INFO inventory-service Inventory updated for product 315
+2026-09-20 09:07:17 WARN auth-service Multiple failed login attempts for user 1090
+2026-09-20 09:08:01 INFO payment-service Payment completed for order 5006
+2026-09-20 09:08:14 INFO api-gateway Request completed with HTTP 200
+2026-09-20 09:09:04 INFO auth-service User 1090 logged in successfully
+2026-09-20 09:09:45 ERROR inventory-service Database connection timeout
+2026-09-20 09:10:03 ERROR inventory-service Database connection timeout
+2026-09-20 09:10:09 ERROR inventory-service Database connection timeout
+2026-09-20 09:10:16 WARN inventory-service Retry attempt 1
+2026-09-20 09:10:22 WARN inventory-service Retry attempt 2
+2026-09-20 09:11:01 INFO inventory-service Database connection restored
+2026-09-20 09:11:25 INFO api-gateway Request completed with HTTP 200

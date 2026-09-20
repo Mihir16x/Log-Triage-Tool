@@ -1,0 +1,30 @@
+2026-09-20 14:00:01 INFO auth-service User 2001 logged in successfully
+2026-09-20 14:00:04 INFO api-gateway Request completed with HTTP 200
+2026-09-20 14:00:10 INFO payment-service Payment request received for order 6101
+2026-09-20 14:00:12 INFO payment-service Payment completed for order 6101
+2026-09-20 14:01:03 WARN api-gateway Request latency exceeded 950ms
+2026-09-20 14:01:10 WARN api-gateway Request latency exceeded 1100ms
+2026-09-20 14:01:20 INFO inventory-service Inventory updated for product 401
+2026-09-20 14:02:01 ERROR payment-service Payment provider timeout for order 6102
+2026-09-20 14:02:15 ERROR payment-service Payment provider timeout for order 6103
+2026-09-20 14:02:28 ERROR payment-service Payment provider timeout for order 6104
+2026-09-20 14:02:40 WARN payment-service Retrying payment provider request
+2026-09-20 14:03:01 INFO payment-service Payment provider recovered
+2026-09-20 14:03:15 INFO auth-service User 2002 logged in successfully
+2026-09-20 14:04:02 ERROR api-gateway Upstream service returned HTTP 502
+2026-09-20 14:04:08 ERROR api-gateway Upstream service returned HTTP 502
+2026-09-20 14:04:15 ERROR api-gateway Upstream service returned HTTP 503
+2026-09-20 14:04:22 ERROR api-gateway Upstream service returned HTTP 503
+2026-09-20 14:04:40 WARN api-gateway Circuit breaker threshold approaching
+2026-09-20 14:05:05 INFO api-gateway Upstream service recovered
+2026-09-20 14:05:18 INFO inventory-service Inventory updated for product 402
+2026-09-20 14:06:00 ERROR inventory-service Database connection timeout
+2026-09-20 14:06:07 ERROR inventory-service Database connection timeout
+2026-09-20 14:06:13 ERROR inventory-service Database connection timeout
+2026-09-20 14:06:20 WARN inventory-service Retry attempt 1
+2026-09-20 14:06:30 WARN inventory-service Retry attempt 2
+2026-09-20 14:07:02 INFO inventory-service Database connection restored
+2026-09-20 14:07:18 WARN auth-service Multiple failed login attempts for user 2010
+2026-09-20 14:07:30 WARN auth-service Multiple failed login attempts for user 2010
+2026-09-20 14:08:05 INFO auth-service User 2010 logged in successfully
+2026-09-20 14:08:20 INFO api-gateway Request completed with HTTP 200
