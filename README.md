@@ -1,5 +1,7 @@
 # Log Triage Tool
 
+[![Run Tests](https://github.com/Mihir16x/Log-Triage-Tool/actions/workflows/tests.yml/badge.svg)](https://github.com/Mihir16x/Log-Triage-Tool/actions/workflows/tests.yml)
+
 A Python-based log analysis tool that parses raw application logs, stores structured events in SQLite, calculates service-level error rates, and detects clustered error spikes for operational triage.
 
 ## Features
